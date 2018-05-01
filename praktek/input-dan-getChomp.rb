@@ -1,3 +1,6 @@
+# gets untuk hasil input + baris baru
+# gets.chomp untuk hasil input baris sama
+
 print "Masukkan Umur : "
 umur = gets.chomp
 print "Kakinya berapa: "
