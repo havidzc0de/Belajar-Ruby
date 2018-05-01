@@ -1,3 +1,5 @@
+#!/bin/ruby
+
 require 'net/http'
 require 'uri'
 
@@ -6,7 +8,6 @@ def target_()
  $target =gets.chomp
  print "Jumlah Bomb : "
  $jumlah = gets.chomp.to_i
- return $jumlah,$target
 end
 
 #Telkomsel
@@ -84,6 +85,7 @@ when "1"
 	 puts "On Progress..."
 	 sleep(3) 
 	 puts "Bomb ke-#{i} Sukses Boss!"
+	 puts
 	end
 
 when "2"
@@ -91,8 +93,9 @@ when "2"
 	phd($target)	
 	for i in 1..$jumlah
 	 puts "On Progress..."
-	 sleep(35) 
+	 sleep(3) 
 	 puts "Bomb ke-#{i} Sukses Boss!"
+	 puts
 	end
 
 when "3"
@@ -102,6 +105,7 @@ when "3"
 	 puts "On Progress..."
 	 sleep(3) 
 	 puts "Bomb ke-#{i} Sukses Boss!"
+	 puts
 	end
 
 
