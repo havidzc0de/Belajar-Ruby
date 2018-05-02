@@ -1,0 +1,12 @@
+Method
+
+# Type data
+
+- String
+- Integer
+- Float
+- Array
+- hash / Array Associative
+- Bolean 
+
+
