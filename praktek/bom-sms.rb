@@ -64,6 +64,11 @@ end
  end
 end
 
+def clickatell(tujuan,pesan)
+	uri = URI.parse("https://platform.clickatell.com/messages/http/send?apiKey=P0CDEoDGS4uLopH3VMT7pw==&to=#{tujuan}&content=#{pesan}")
+    response = Net::HTTP.get_response(uri)
+end
+
 system("figlet SmsBomber")      
 
 
@@ -73,8 +78,9 @@ puts "-=[ Bomber Via? ]=-"
 puts "1. Telkomsel [Khusus target nomor telkomsel] +62xxx"
 puts "2. Pizza Hut"
 puts "3. JD ID"
+puts "4. SMS GRATIS"
 puts
-print "Pilih 1-3 : "
+print "Pilih 1-4 : "
 target_via = gets.chomp
 
 case target_via
@@ -107,6 +113,16 @@ when "3"
 	 puts "Bomb ke-#{i} Sukses Boss!"
 	 puts
 	end
+
+when "4"
+	print "Tujuan : "
+	$tujuan = gets.chomp
+	print "Pesan : "
+	$pesan = gets.chomp
+	clickatell($tujuan,$pesan)	
+	 puts "On Progress..."
+	 sleep(3) 
+	 puts "SMS ke-#{$tujuan} Sukses Boss!"
 
 
 end
