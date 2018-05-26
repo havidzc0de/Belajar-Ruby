@@ -10,3 +10,14 @@ Method
 - Bolean 
 
 
+PR Pertemuan ke 5
+===================
+- Baca MVC
+- Baca SDLC -> scrum | 15 mei
+- Baca APIARY
+- Baca https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-two
+
+
+https://medium.com/skyshidigital/documentation-testing-api-dengan-postman-part-1-5d33e430dca7
+
+https://medium.com/skyshidigital/documentation-testing-api-dengan-postman-part-2-d10ff0becf31
