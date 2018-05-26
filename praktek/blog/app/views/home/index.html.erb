@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Citrakara</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h3>Belajar Ruby On Rails</h3>
+		</div>
+		<hr>
+		<div class="konten">
+			<ul>
+				<% @langs.each do |lang| %>
+
+				<li> <%= lang %> </li>
+				<% end %>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
