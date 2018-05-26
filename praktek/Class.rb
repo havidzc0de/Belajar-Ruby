@@ -10,7 +10,7 @@ class Polindrome
 	end
 
 	def cek()
-		(0..@hewan.length-1).each do |i|
+		(0...@hewan.length).each do |i|
 			if @hewan[i] === @hewan[i].reverse then
 				puts "#{@hewan[i]} adalah Polindrome"
 			elsif @hewan[i] === @hewan[i]
