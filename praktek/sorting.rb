@@ -1,4 +1,4 @@
- 	#!/bin/ruby
+ #!/bin/ruby
 
 array = [5,2,6,9,4,5,7]
 
