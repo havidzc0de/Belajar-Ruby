@@ -23,6 +23,10 @@ class Hewan
 			@alatNafas=value
 	end
 	
+	def info
+			puts "#{self.class.name} Memiliki #{x} Kaki dan Bernafas Menggunakan #{y} " 
+			puts
+	end
 end
 
 
@@ -41,9 +45,6 @@ kucing.setAlatNafas = "Paru-Paru"
 x = kucing.getKaki()
 y = kucing.getAlatNafas()
 
-
-puts "Kucing Memiliki #{x} Kaki Dan Bernafas Menggunakan #{y}"
-puts
 
 ayam = Ayam.new(3,"Insang")
 ayam.setKaki = 2
